@@ -49,20 +49,20 @@ export default {
       // http://www.wangyulue.com/code/preface.html
       // https://www.wangyulue.com/code/preface.html
       // 都变为 wangyulue.com/code/preface.html，统一计数
-      if (path.includes("wangyulue")) {
-        path = path.replace(/(.*?)(wangyulue)(.*?)/, "$2$3");
-      }
-      document.getElementsByClassName("leancloud-visitors")[0].id = path;
-      this.valine.init({
-        el: "#vcomments",
-        appId: "PzJwckatlgGYxh6kPutyuQCa-gzGzoHsz", // your appId
-        appKey: "RDEKm8HVVbQBN8Wp9wpxidpC", // your appKey
-        notify: false,
-        verify: true,
-        path: path,
-        visitor: true,
-        avatar: "",
-        placeholder: "write here"
+      // if (path.includes("wangyulue")) {
+      //   path = path.replace(/(.*?)(wangyulue)(.*?)/, "$2$3");
+      // }
+      // document.getElementsByClassName("leancloud-visitors")[0].id = path;
+      // this.valine.init({
+      //   el: "#vcomments",
+      //   appId: "PzJwckatlgGYxh6kPutyuQCa-gzGzoHsz", // your appId
+      //   appKey: "RDEKm8HVVbQBN8Wp9wpxidpC", // your appKey
+      //   notify: false,
+      //   verify: true,
+      //   path: path,
+      //   visitor: true,
+      //   avatar: "",
+      //   placeholder: "write here"
       });
     }
   }

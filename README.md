@@ -1,6 +1,6 @@
 ## 个人博客
 
-基于 [vuepress](https://vuepress.vuejs.org/)，博客地址 https://www.wangyulue.com
+基于 [vuepress](https://vuepress.vuejs.org/)
 
 已支持：
 
